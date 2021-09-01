@@ -1,0 +1,143 @@
+
+
+nav:hover{
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 14, 14);
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    box-shadow: 10px 5px 5px rgb(99, 97, 97);
+    }
+
+    #test {
+border-radius: 40px !important;
+    }
+
+    
+    #test:hover {
+        border-radius: 40px !important;
+        background-color: rgb(22, 22, 95);
+        color:rgb(255, 255, 255);
+        padding: 7px;
+        box-shadow: 10px 5px 5px rgb(99, 97, 97);
+
+            }
+
+nav{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    bottom:1px;
+   padding: 5px;
+   justify-content: space-between;
+
+}
+
+#portefeuille {
+
+width: 200px;
+height: 200px;
+border-radius: 200px;
+position: absolute;
+right: 55px;
+top:50px;
+box-shadow: 5px 3px 2px rgb(99, 97, 97);
+
+}
+
+body {
+
+
+    background-color: lightblue;
+}
+
+#revenu {
+
+    box-shadow: 5px 0px 2px rgb(99, 97, 97);
+}
+
+#depenses {
+
+    box-shadow: 5px 0px 2px rgb(99, 97, 97);
+
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 200px;
+    width: 90%; 
+    height: 50%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+
+  
+  .close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+ 
+  
+
+  .modal-content {
+    position: relative;
+    background-color: lightblue;
+    margin: auto;
+    padding: 0;
+    border: 30px solid rgb(107, 141, 153);
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.8s
+  }
+  
+
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 200px; opacity: 1}
+  }
+
+
+
+  button {
+
+    border-radius: 20px;
+    background-color: lightblue;
+  }
+
+
+  #myModal {
+
+    border-radius: 20px;
+
+  }
+
+  
+  .modal-content {
+
+    border-radius: 20px;
+
+  }

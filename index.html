@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <script src='js/script.js' defer></script>
+</head>
+<body>
+    <style>
+        .container{
+            display:flex;
+            flex-direction:row;
+            justify-content: space-evenly;
+        }
+        #revenu, #depenses{
+            display:flex;
+            flex-direction:column;
+        }
+        .rowss{
+            display:flex;
+            flex-direction:row;
+        }
+    </style>
+    <div class='container'>
+        <div id='depenses'>
+            <button id='btn_add_deps' class='btn btn-dark m-2'>+ Depenses</button>
+            <div class='rowss'>
+                <div class='btn btn-success w-100 m-2' >Nom</div>
+                <div class='btn btn-success  w-100 m-2'>Montant</div>
+                <button id='btn_add_deps' class='btn btn-sm m-2 rounded-circle' disabled>+</button>
+            </div>
+        </div>
+        <div id='revenu'>
+            <button id='btn_add_revenu' class='btn btn-dark m-2'>+ Revenus</button>
+            <div class='rowss'>
+                <div class='btn btn-success w-100 m-2' >Nom</div>
+                <div class='btn btn-success  w-100 m-2'>Montant</div>
+                <button id='btn_add_deps' class='btn btn-sm m-2 rounded-circle' disabled>+</button>
+            </div>
+        </div>
+    </div> 
+    <div class='d-flex justify-content-center mt-4 bg-light'>
+        <div id='resultats' >
+            <div ></div>
+        </div>
+    </div> 
+
+
+<nav>
+ 
+    <a href="login.php" id="test" class='btn btn-primary btn-sn rounded'>
+       Connexion
+        </a>
+        
+    <a href="inscription.php" id="test" class='btn btn-primary btn-sn rounded'>
+        S'inscrire
+        </a>
+
+        <a href="Nawak.php" id="test" class='btn btn-primary btn-sn rounded'>
+            Adefinir
+            </a>
+
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p> Les ménages français dépensent en moyenne 1055 € par mois pour régler leurs dépenses contraintes, soit une montant stable par rapport à la précédente enquête de novembre 2020 (1061 €).
+
+      Les principaux postes de dépenses contraintes sont :
+      
+      le logement : environ 662 €, qui recouvre loyer, crédit, assurances liées au logement, électricité, chauffage… ;
+      le transport, avec 218 € par mois, dont : </p>
+      le remboursement du crédit automobile, avec 186 € en moyenne.
+      <p>le carburant (94 €); l’assurance automobile (84 :€)et éventuellement, le forfait de transport en commun (50 €).
+      la santé : le budget des Français s’élève en moyenne à 99 € par mois, mais avec d’importantes disparités selon les âges : 47 € pour les 18-24 ans, et 134 € pour les plus de 65 ans ;
+      </p> <p> Les frais de communication (téléphonie, internet, abonnements numériques, …) : 80 € en moyenne, poste par ailleurs stable quel que soit l’âge.
+
+     Les frais financiers, dont le montant moyen par mois s’élève à 73 €. Cela comprend principalement les frais bancaires. L’étude note que 25 % des Français remboursent un crédit à la consommation de 153 € mensuel, en moyenne. </p>
+    
+</body>
+
+<footer>
+</nav>
+
+<img id="portefeuille" src="./styles/happy-wallet.jpg">
+
+
+<button id="myBtn"> Indications ? </button>
+
+</footer>
+</html>
